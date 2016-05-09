@@ -122,12 +122,6 @@
           "properties": {
             "addressPrefix": "[parameters('sqlSubnetRange')]"
           }
-        },
-        {
-          "name": "[parameters('gatewaySubnetName')]",
-          "properties": {
-            "addressPrefix": "[parameters('gatewaySubnetRange')]"
-          }
         }
       ]
     }
