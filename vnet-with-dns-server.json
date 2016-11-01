@@ -51,6 +51,18 @@
         "description": "The address range of the subnet created in the new VNET"
       }
     },
+    "cacheSubnetName": {
+      "type": "string",
+      "metadata": {
+        "description": "The name of the subnet created in the new VNET"
+      }
+    },
+    "cacheSubnetRange": {
+      "type": "string",
+      "metadata": {
+        "description": "The address range of the subnet created in the new VNET"
+      }
+    },
     "sqlSubnetName": {
       "type": "string",
       "metadata": {
