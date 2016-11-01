@@ -130,6 +130,12 @@
           }
         },
         {
+          "name": "[parameters('cacheSubnetName')]",
+          "properties": {
+            "addressPrefix": "[parameters('cacheSubnetRange')]"
+          }
+        },
+        {
           "name": "[parameters('sqlSubnetName')]",
           "properties": {
             "addressPrefix": "[parameters('sqlSubnetRange')]"
